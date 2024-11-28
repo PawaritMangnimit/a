@@ -1,0 +1,59 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    
+    font-family: 'Arial', sans-serif;
+}
+
+
+.head {
+    display: grid;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: 200px;
+    place-items: center;
+    
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px; 
+    margin: 40px auto;
+    width: 90%;
+    
+}
+
+
+.box1, .box2, .box3, .box4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    background-color: #ffccbc;
+    border: 1px solid #dd9090;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden; 
+    height: auto;
+    min-height: 400px;
+
+}
+
+
+.box11 ,.box12,.box21,.box22,.box31,.box32,.box41,.box42{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    border-right: 1px solid #dd9090; 
+}
+
+
+
+
+
+
